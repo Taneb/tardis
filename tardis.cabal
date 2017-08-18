@@ -24,10 +24,12 @@ library
   exposed-modules:     Control.Monad.Tardis
                      , Control.Monad.Tardis.Class
                      , Control.Monad.Trans.Tardis
+                     , Control.Monad.Indexed.Tardis
 
   build-depends:       base >= 4.8 && < 5
                      , mtl==2.*
                      , mmorph==1.*
+                     , indexed >= 0.1.2 && < 0.2
 
 
 source-repository head
